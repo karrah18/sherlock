@@ -1,5 +1,5 @@
 FROM python:3.11-slim-bullseye as build
-WORKDIR /wheels
+WORKDIR /sherlock
 
 COPY requirements.txt /opt/sherlock/
 RUN apt-get update \
